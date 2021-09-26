@@ -80,6 +80,6 @@ While the model achieved desired level of accuracy,  I had to struggle with the 
 
 I ran a test model for XGBoost.  XGBoost is a boosting model that is generally considered a great model for classification.  The lead in to the model was basic with just hot-encoding and less focus on noisy columns.  Even then XGBoost was able to produce above the required accuracy with no real optimization.
 
-[Unoptimized XGBoost] (xgboost.ipynb)
+[Unoptimized XGBoost for Alphabet Soup Charity](./xgboost.ipynb)
 
 I was able to get Accuracy: 77.71% with far less data manupulation  for this data set. 
