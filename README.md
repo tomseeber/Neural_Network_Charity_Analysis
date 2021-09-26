@@ -5,16 +5,17 @@ The purpose of this analysis is to predict which projects and charities would be
 
 ## Deliverable 1: Setup ( contained with the Model with Setup)
 
-[Set up for the model is in the original file for the model is in the un-optimized version of the model.](./AlphabetSoupCharity.ipynb)
+* [The full unoptimized model for the charity analysis with no optimizations in Jupyter file](./AlphabetSoupCharity.ipynb)
+* [HD5 file of Model](./AlphabetSoupCharity.h5)
 
 ## Deliverable 2:  Model with Setup
 
-[The full unoptimized model for the charity analysis with no optimizations.](./AlphabetSoupCharity.ipynb)
-
+* [The full unoptimized model for the charity analysis with no optimizations in Jupyter file](./AlphabetSoupCharity.ipynb)
+* [HD5 file of Model](./AlphabetSoupCharity.h5)
 ## Deliverable 3:  Optimized Model
 
-[Optimized Model with over 75% Accuracy](AlphabetSoupCharity_Optimized.ipynb)
-
+* [Optimized Model with over 75% Accuracy](AlphabetSoupCharity_Optimized.ipynb)
+* [HD5 file of Model](./AlphabetSoupCharity.h5)
 ## Deliverable 4: Summary and Notes
 
 ### Data Preprocessing
@@ -42,7 +43,7 @@ The features of this model are the
 #### 3. What variable(s) are neither and should be removed from the input data? 
  EIN (Employer identificaiton) was dropped because the numbers really are more like strings.  This would confuse the system.  Dropping Status cause all the values are 1
 
-### Compiling, Training, and Evaluating the Model*
+### Compiling, Training, and Evaluating the Model
 
 #### 1. How many neurons, layers, and and activation functions did you select for your neural network model, and why?
 
